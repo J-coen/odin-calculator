@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-body {
+    height: 100%;
+    width: 100%;
+    max-height: 380px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(46, 44, 44);
+}
+
+.screen {
+    height: 12%;
+    width: 90%;
+    margin: 10px 5px 15px 5px;
+    padding: 0 5px;
+    text-align: right;
+    background-color: rgb(160, 241, 105);
+    font-size: 2rem;
+}
+
+.calc-buttons {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.number-button {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin: 6px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 40%;
+    border: none;
+    background-color: rgb(126, 122, 122);
+}
+
+.backspace-button {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin: 6px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 40%;
+    border: none;
+    background-color: rgb(126, 122, 122);
+
+}
+
+.bottom-row {
+    width: 100%;
+}
+
+#divide-btn,
+#multiply-btn,
+#minus-btn,
+#plus-btn {
+    background-color: rgb(61, 126, 248);
+}
+
+#clear-btn {
+    cursor: pointer;
+    height: 40px;
+    width: 35%;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(241, 136, 75);
+    font-size: 16px;
+    color: #fff;
+}
+
+#equals-btn {
+    cursor: pointer;
+    height:  40px;
+    width: 50%;
+    border-radius: 10px;
+    margin: 0 0 0 15px;
+    background-color: rgb(105, 241, 105);
+    font-size: 18px;
+    color: #fff;
+}
+
